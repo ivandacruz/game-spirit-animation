@@ -1,5 +1,5 @@
 #canvas1 {
-    border: 5px solid black;
+    border: 7px solid black; /*depois é só retirar a borda e subir mais o controls */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -7,4 +7,24 @@
     width: 600px;
     height: 600px;
     
+}
+.controls{
+    position: absolute;
+    z-index: 10;
+    /* top: 100px; */
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.controls, select, option {
+    color: goldenrod;
+    font-size: 25px;
+}
+label {
+    color: blue;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+option {
+    color: brown;
 }
